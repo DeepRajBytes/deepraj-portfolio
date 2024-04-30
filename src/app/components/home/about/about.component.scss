@@ -20,7 +20,7 @@
             width: 300px;
             height: 300px;
             border-radius: 3px;
-            bottom: 290px;
+            bottom: 200px;
             left: 23px;
 
         }
@@ -73,13 +73,13 @@
 @media (max-width: 500px){
     .about{
         .about-img-container img{
-            width: 200px;
-            height: 200px;
+            width: 300px;
+            height: 300px;
         }
         .about-img-container:after {
             width: 200px;
             height: 200px;
-            bottom: 190px;
+            bottom: 100px;
             left: 74px;
         }
     }
@@ -92,8 +92,8 @@
             width: 100%;
 
             img{
-                width: 180px;
-                height: 180px;
+                width: 300px;
+                height: 300px;
             }
 
             &:after {
