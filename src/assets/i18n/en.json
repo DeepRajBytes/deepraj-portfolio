@@ -64,9 +64,9 @@
             "Description": "I developed a scalable <span class='underline'>E-Commerce Store</span> that sells clothing, with dynamic product management and customer handling. The project includes secure <span class='underline'> Authentication services</span> and Configurable Graphics and alarms. I also integrated feedback form logic for real-time parameter configuration and improvements.",
             "demoLink": "https://e-commerce-frontend-roan-delta.vercel.app/",
             "imgs": [
-                "assets/images/school/e-commerce3.png",
-                "assets/images/school/e-commerce2.png",
-                "assets/images/school/e-commerce1.png"
+                "assets/images/ecommerce/e-commerce3.png",
+                "assets/images/ecommerce/e-commerce2.png",
+                "assets/images/ecommerce/e-commerce1.png"
             ],
             "Technologies": [
                 "Angular",
@@ -110,8 +110,8 @@
             "Title": "Jarvis Desktop Assistant",
             "Description": "Jarvis is an advanced  <span class='underline'>Desktop Assistant</span> that allows seamless interaction with your computer through voice commands. Perform tasks such as opening YouTube, Instagram, or searching the internet effortlessly by speaking simple commands like 'Jarvis, open YouTube'. Control system functions such as shutdown or restart with ease, making your daily tasks smoother and more efficient",
             "imgs": [
-                "assets/images/mazhr/jarvis1.png",
-                "assets/images/mazhr/jarvis2.png"
+                "assets/images/jarvis/jarvis1.png",
+                "assets/images/jarvis/jarvis2.png"
             ],
             "demoLink": "https://jarvis-assitant.vercel.app/",
             "Technologies": [
