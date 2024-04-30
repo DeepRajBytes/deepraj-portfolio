@@ -1,0 +1,31 @@
+<section class="section contact" id='contact'>
+    <div class="container">
+        <div class="section-box">
+            <div class="mb-4" data-aos="fade-up" data-aos-duration="1000">
+                <h3 class="contact-pre-title big-subtitle">05. {{"Contact.Pretitle" | translate}}</h3>
+                <h4 class="e-font contact-title big-title">
+                    {{"Contact.Title" | translate}}
+                </h4>
+            </div>
+            <p data-aos="fade-up" data-aos-duration="1000">
+                {{"Contact.Content" | translate}}
+            </p>
+            <div class="contact-buttons">
+                <a (click)="analyticsService.sendAnalyticEvent('click_github', 'footer', 'github')" 
+                    href="https://github.com/deeprajiflair" target="_blank" title="GitHub" class="btn btn-github">
+                    <i class="fab fa-github large"></i>
+                </a>
+                <a (click)="analyticsService.sendAnalyticEvent('click_linkedin', 'footer', 'linkedin')" 
+                    href="https://www.linkedin.com/in/deepraj-chouhan-271399204" target="_blank" title="LinkedIn" class="btn btn-linkedin">
+                    <i class="fab fa-linkedin-in large"></i>
+                </a>
+            </div>
+            
+            <div class="mt-5">
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:dprjchouhan@gmail.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
+                    {{"Contact.Btn" | translate}}
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
