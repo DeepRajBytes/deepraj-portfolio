@@ -13,6 +13,12 @@
                     <i class="fab fa-linkedin-in"></i>
                 </a>
             </li>
+            <li>
+                <a (click)='analyticsService.sendAnalyticEvent("click_github", "footer", "github")' 
+                href="https://www.instagram.com/deepraj_sen__?igsh=eDI5NnFyMzBoYjZl" target='_blank'>
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </li>
         </ul>
         <div class="footer-right-bar d-none d-md-block">
             <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "footer", "email")' href="mailto:dprjchouhan@gmail.com" target='_blank'>dprjchouhan@gmail.com</a>
@@ -21,10 +27,10 @@
     <div class="footer-credits text-center" >
        
       
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://github.com/mufeez1" target="_blank" rel="nofollow noopener noreferrer">
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_andresjose", "footer", "click")' href="https://www.linkedin.com/in/deepraj-chouhan-271399204" target="_blank" rel="nofollow noopener noreferrer">
             <div>Built with Angular by Deepraj Chouhan</div>
         </a>
-        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://github.com/andresjosehr/andresjosehr-portfolio" target="_blank" rel="nofollow noopener noreferrer">
+        <a (click)='analyticsService.sendAnalyticEvent("click_github_portfolio_brittany", "footer", "click")' href="https://www.linkedin.com/in/deepraj-chouhan-271399204" target="_blank" rel="nofollow noopener noreferrer">
             <div class="mt-2">Designed by Deepraj and Team</div>
         </a>
     </div>
