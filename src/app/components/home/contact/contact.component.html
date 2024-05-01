@@ -21,11 +21,16 @@
                 </a>
             </div>
             
-            <div class="mt-5">
+            <div class="horizontal-buttons mt-5">
                 <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:dprjchouhan@gmail.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
                     {{"Contact.Btn" | translate}}
                 </a>
+                <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="tel:+919755161223" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
+                    {{"Call Me" | translate}}
+                </a>
             </div>
+            
+        
         </div>
     </div>
 </section>

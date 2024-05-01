@@ -59,6 +59,12 @@
         justify-content: center;
         text-align: center;
     }
+    .horizontal-buttons {
+        display: flex; /* Align buttons in a row */
+        justify-content: center; /* Center the buttons */
+        gap: 20px; /* Space between the buttons */
+    }
+    
 
 }
 
