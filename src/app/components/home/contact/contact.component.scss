@@ -115,9 +115,42 @@
     color: #cccccc;
 }
 
-/* Media query for screens up to 768 pixels wide */
+
 @media (min-width: 769px) {
     .contact-buttons{
-        display: none; /* Hide the GitHub button on desktop screens */
+        display: none;
+    }
+}
+
+.list-inline {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.list-inline-item {
+  margin: 0 10px;
+}
+
+.list-inline-item a {
+  color: white; 
+  font-size: 24px;
+}
+
+.list-inline-item a:hover {
+  color: #007bff;
+}
+
+
+@media (max-width: 767px) {
+    .raj {
+        display: none;
+    }
+}
+
+/* Show the .raj section on desktop devices */
+@media (min-width: 768px) {
+    .raj {
+        display: block;
     }
 }

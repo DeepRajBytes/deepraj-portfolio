@@ -10,7 +10,7 @@
             <p data-aos="fade-up" data-aos-duration="1000">
                 {{"Contact.Content" | translate}}
             </p>
-            <div class="contact-buttons">
+            <div class="contact-buttons" data-aos="fade-up" data-aos-duration="1000">
                 <a (click)="analyticsService.sendAnalyticEvent('click_github', 'footer', 'github')" 
                     href="https://github.com/deeprajiflair" target="_blank" title="GitHub" class="btn btn-github">
                     <i class="fab fa-github large"></i>
@@ -25,7 +25,35 @@
             </a>
                 
             </div>
-            
+            <div class="raj text-center">
+                <ul class="list-inline">
+                  <li class="list-inline-item">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_whatsapp", "footer", "whatsapp")' 
+                       href="https://wa.me/9755161223" target='_blank'>
+                      <i class="fab fa-whatsapp"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_phone", "footer", "phone")' 
+                       href="tel:+919755161223" target='_blank'>
+                      <i class="fas fa-phone"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_twitter", "footer", "twitter")' 
+                       href="https://x.com/deepraj_sen?t=0jwNABXgcgv51ABw4at2OQ&s=09" target='_blank'>
+                      <i class="fab fa-twitter"></i>
+                    </a>
+                  </li>
+                  <li class="list-inline-item">
+                    <a (click)='analyticsService.sendAnalyticEvent("click_telegram", "footer", "telegram")' 
+                       href="https://t.me/Deeprajsen143" target='_blank'>
+                      <i class="fab fa-telegram"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+
             <div class="horizontal-buttons mt-5">
                 <a (click)='analyticsService.sendAnalyticEvent("click_send_mail", "contact", "email")' href="mailto:dprjchouhan@gmail.com" target="_blank" class="main-btn" data-aos="fade-up" data-aos-duration="1000">
                     {{"Contact.Btn" | translate}}
