@@ -79,7 +79,7 @@
         },
         {
             "Title": "PICPORT Image Showcase",
-            "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest hre user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
+            "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest here user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
             "demoLink":"https://github.com/deeprajiflair/PicPort-social-site.git",
             "imgs": [
                 "assets/images/bbm/image1.png",
