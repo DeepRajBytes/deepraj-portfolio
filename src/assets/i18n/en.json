@@ -1,171 +1,146 @@
 {
-    "Header.Item1": "About me",
-    "Header.Item2": "Experience",
-    "Header.Item3": "Projects",
-    "Header.Item4": "Contact",
-    "Header.cvBtn": "Resume",
-    "Header.cvName": "Deepraj_resume.pdf",
-    "Banner.Pretitle": "Hello! My name is",
-    "Banner.Description": "<span class='underline'>Full-stack web developer</span> with one year of experience in building modern, responsive web applications. Skilled in<span class='underline'> React, Angular, and Node.js</span>, I create efficient and user-friendly digital solutions.",
-    "Banner.ActionBtn": "Get in touch",
-    "AboutMe.Title": "About me",
-    "AboutMe.Paragraphs": [
-        "In addition to my front-end expertise, I have also built and tested APIs, and optimized backend code with <span class='underline'>ExpressJS</span>, <span class='underline'>NodeJS</span>, and databases such as <span class='underline'>MongoDB</span> and <span class='underline'>MySQL</span>. I am committed to continuous learning and strive to bring creativity and efficiency to every project I work on.",
+  "Header.Item1": "About me",
+  "Header.Item2": "Experience",
+  "Header.Item3": "Projects",
+  "Header.Item4": "Contact",
+  "Header.cvBtn": "Resume",
+  "Header.cvName": "Deepraj_resume.pdf",
+  "Banner.Pretitle": "Hello! My name is",
+  "Banner.Description": "<span class='underline'>Full-stack web developer</span> with one year of experience in building modern, responsive web applications. Skilled in<span class='underline'> React, Angular, and Node.js</span>, I create efficient and user-friendly digital solutions.",
+  "Banner.ActionBtn": "Get in touch",
+  "AboutMe.Title": "About me",
+  "AboutMe.Paragraphs": [
+    "In addition to my front-end expertise, I have also built and tested APIs, and optimized backend code with <span class='underline'>ExpressJS</span>, <span class='underline'>NodeJS</span>, and databases such as <span class='underline'>MongoDB</span> and <span class='underline'>MySQL</span>. I am committed to continuous learning and strive to bring creativity and efficiency to every project I work on.",
 
-        "My approach involves implementing system improvements, standardizing patterns, and actively suggesting and executing ideas that enhance the projects I'm involved in. I value teamwork and collaboration and always aim to deliver quality work that exceeds expectations."
-        
-    ],
-    "Experience.Title": "Experience",
-    "Experience.Jobs": [
-        {
-            "Tab": "Iflair",
-            "Title": "Fullstack developer",
-            "name":"iFlair Web Technologies Pvt. Ltd.",
-            "Date": "Febuarary 2024 - Present",
-            "Description": [
-                "Developed and maintained a web-based application using Angular, Node.js, and MongoDB, resulting in improved user experience and increased performance.",
-                "Designed and implemented RESTful APIs to support multiple applications, using Node.js and Express.",
-                "Built a real-time chat application using WebSockets and Node.js, increasing communication and collaboration among team members.",
-                "Implementation of continuous integration and daily backups.",
-                "Creation of modules with complex reactive forms"
-            ]
-        },
-        
-        {
-            "Tab": "Indvibe",
-            "Title": "Frontend developer Trainee",
-            "Date": "June 2023 - December 2023",
-            "name":"indvibe infotech pvt ltd",
-            "Description": [
-                "Developed and maintained web applications using  React.",
-                "Coding of API requests with RxJS.",
-                "Improved website performance by optimizing images and implementing caching techniques.",
-                "Collaborated with designers and back-end developers to create responsive and user-friendly web experiences"
-            ]
-        },
-        {
-            "Tab": "Freelancer",
-            "Title": "Independent",
-            "name":"Freelancer",
-            "Date": "March 2022 - Present",
-            "Description": [
-                "Implementing continuous improvements, working on frontend and backend.",
-                "Creating platforms with Angular,React, Nodejs, ExpressJS,  programmed with functional, reactive, and object-oriented programming paradigms.",
-                "Automation of processes with data structures.",
-                "Design layout with CSS , Bootstrap , TailWind , Figma , Photoshop etc."
-            ]
-        }
-    ],
-    "FeatureProjects.Title": "Projects I made from Scratch",
-    "FeatureProjects.Label": "Featured Project",
-    "FeatureProjects.Projects": [
-        {
-            "Title": "E-Commerce Store",
-            "Description": "I developed a scalable <span class='underline'>E-Commerce Store</span> that sells clothing, with dynamic product management and customer handling. The project includes secure <span class='underline'> Authentication services</span> and Configurable Graphics and alarms. I also integrated feedback form logic for real-time parameter configuration and improvements.",
-            "demoLink": "https://e-commerce-frontend-roan-delta.vercel.app/",
-            "imgs": [
-                "assets/images/ecommerce/e-commerce3.png",
-                "assets/images/ecommerce/e-commerce2.png",
-                "assets/images/ecommerce/e-commerce1.png"
-            ],
-            "Technologies": [
-                "Angular",
-                "MongoDB",
-                "MaterialUI",
-                "Ngrx",
-                "Node.JS",
-                "ExpressJS"
-            ]
-        },
-        {
-            "Title": "PICPORT Image Showcase",
-            "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest here user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
-            "demoLink":"https://github.com/deeprajiflair/PicPort-social-site.git",
-            "imgs": [
-                "assets/images/bbm/image1.png",
-                "assets/images/bbm/image2.png",
-                "assets/images/bbm/image3.png"
-            ],
-            "Technologies": [
-                "Angular",
-                "SASS",
-                "Material",
-                "RxJS",
-                "ExpressJS"
-            ]
-        },
-        {
-            "Title": "Firebase Task Manager",
-            "Description": "<span class='underline'>The Firebase Task Manager</span> features a streamlined login and signup system with email and password authentication. New users receive an <span class='underline'>email verification link for account activation</span>. Once verified, users can access and store their tasks and preferences securely in Firebase Firestore, ensuring data security and privacy.",
-            "imgs": [
-                "assets/images/ftm/ftm1.png",
-                "assets/images/ftm/ftm2.png"
-            ],
-            "demoLink": "https://firestore-crud-deepraj.vercel.app/",
-            "Technologies": [
-                "Angular",
-                "Firebase",
-                "TypeScript"
-            ]
-        },
-        {
-            "Title": "Jarvis Desktop Assistant",
-            "Description": "Jarvis is an advanced  <span class='underline'>Desktop Assistant</span> that allows seamless interaction with your computer through voice commands. Perform tasks such as opening YouTube, Instagram, or searching the internet effortlessly by speaking simple commands like 'Jarvis, open YouTube'. Control system functions such as shutdown or restart with ease, making your daily tasks smoother and more efficient",
-            "imgs": [
-                "assets/images/jarvis/jarvis1.png",
-                "assets/images/jarvis/jarvis2.png"
-            ],
-            "demoLink": "https://jarvis-assitant.vercel.app/",
-            "Technologies": [
-                "HTML",
-                "CSS3",
-                "Bootstrap",
-                "Javascript"
-            ]
-        }
-        
-    ],
-    "OtherProjects.Title": "More personal projects",
-    "OtherProjects.Projects": [
-        {
-            "Title": "Weather Application",
-            "Description": "The Weather Application uses the OpenWeather API for accurate forecasts and dynamically changes its widget background based on the time of day. Daytime features a sunny background, while nighttime shows a night sky. This improves user experience and provides better visualization for intuitive weather monitoring.",
-            "ghLink": "https://github.com/deeprajiflair/weather-app.git",
-            "demoLink": "https://weather-app-psi-mocha.vercel.app/",
-            "Technologies": [
-                "Angular",
-                "Restfull API",
-                "Tailwind"
-            ]
-        },
-        {
-            "Title": "JWT Integration",
-            "Description": "In a project integrating Angular, Node.js, and MongoDB, JSON Web Token (JWT) is used for secure authentication. Upon user login, the server issues a JWT, which is stored in the client's local storage for easy access during subsequent sessions.",
-            "ghLink": "https://github.com/deeprajiflair/jwt-deepraj.git",
-            "Technologies": [
-                "Angular",
-                "JWT",
-                "MongoDB",
-                "NodeJS",
-                "ExpressJS"
-            ]
-        },
-        {
-            "Title": "Crud Operation in Json Server",
-            "Description": "In Angular, use JSON Server as a mock REST API for CRUD operations with a TypeScript front end. Implement methods for creating, reading, updating, and deleting data from the server, while maintaining proper state management and error handling in the application..",
-            "ghLink": "https://github.com/mufeez1/quizapp",
-            "demoLink": "https://crud-sable-sigma.vercel.app/",
-            "Technologies": [
-                "React",
-                "SASS",
-                "TypeScript",
-                "API",
-                "3rd Party Library"
-            ]
-        }
-    ],
-    "Contact.Pretitle": "What’s Next",
-    "Contact.Title": "Get in touch!",
-    "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
-    "Contact.Btn": "Say Hello"
+    "My approach involves implementing system improvements, standardizing patterns, and actively suggesting and executing ideas that enhance the projects I'm involved in. I value teamwork and collaboration and always aim to deliver quality work that exceeds expectations."
+  ],
+  "Experience.Title": "Experience",
+  "Experience.Jobs": [
+    {
+      "Tab": "Iflair",
+      "Title": "Fullstack developer",
+      "name": "iFlair Web Technologies Pvt. Ltd.",
+      "Date": "Febuarary 2024 - Present",
+      "Description": [
+        "Developed and maintained a web-based application using Angular, Node.js, and MongoDB, resulting in improved user experience and increased performance.",
+        "Designed and implemented RESTful APIs to support multiple applications, using Node.js and Express.",
+        "Built a real-time chat application using WebSockets and Node.js, increasing communication and collaboration among team members.",
+        "Implementation of continuous integration and daily backups.",
+        "Creation of modules with complex reactive forms"
+      ]
+    },
+
+    {
+      "Tab": "Indvibe",
+      "Title": "Frontend developer Trainee",
+      "Date": "June 2023 - December 2023",
+      "name": "indvibe infotech pvt ltd",
+      "Description": [
+        "Developed and maintained web applications using  React.",
+        "Coding of API requests with RxJS.",
+        "Improved website performance by optimizing images and implementing caching techniques.",
+        "Collaborated with designers and back-end developers to create responsive and user-friendly web experiences"
+      ]
+    },
+    {
+      "Tab": "Freelancer",
+      "Title": "Independent",
+      "name": "Freelancer",
+      "Date": "March 2022 - Present",
+      "Description": [
+        "Implementing continuous improvements, working on frontend and backend.",
+        "Creating platforms with Angular,React, Nodejs, ExpressJS,  programmed with functional, reactive, and object-oriented programming paradigms.",
+        "Automation of processes with data structures.",
+        "Design layout with CSS , Bootstrap , TailWind , Figma , Photoshop etc."
+      ]
+    }
+  ],
+  "FeatureProjects.Title": "Projects I made from Scratch",
+  "FeatureProjects.Label": "Featured Project",
+  "FeatureProjects.Projects": [
+    {
+      "Title": "E-Commerce Store",
+      "Description": "I developed a scalable <span class='underline'>E-Commerce Store</span> that sells clothing, with dynamic product management and customer handling. The project includes secure <span class='underline'> Authentication services</span> and Configurable Graphics and alarms. I also integrated feedback form logic for real-time parameter configuration and improvements.",
+      "demoLink": "https://e-commerce-frontend-roan-delta.vercel.app/",
+      "imgs": [
+        "assets/images/ecommerce/e-commerce3.png",
+        "assets/images/ecommerce/e-commerce2.png",
+        "assets/images/ecommerce/e-commerce1.png"
+      ],
+      "Technologies": [
+        "Angular",
+        "MongoDB",
+        "MaterialUI",
+        "Ngrx",
+        "Node.JS",
+        "ExpressJS"
+      ]
+    },
+    {
+      "Title": "Talk-A-Tive Chat Application",
+      "Description": "<span class='underline'>Talk-A-Tive Chat Application</span>a live chat application using <span class='underline'>Socket.IO,</span> featuring real-time messaging, user authentication (signup/signin), profile editing, and group chat capabilities. This project integrates interactive communication and user management for a dynamic chat experience. Note(Edit) - Please activate your cors extension for activate the project",
+      "imgs": [
+        "assets/images/ftm/ftm1.png",
+        "assets/images/ftm/ftm2.png",
+        "assets/images/ftm/ftm3.png",
+        "assets/images/ftm/ftm4.png"
+      ],
+      "demoLink": "https://react-chat-app-nu-nine.vercel.app/",
+      "Technologies": ["React.js", "Node.js", "Socket.IO", "MongoDB"]
+    },
+    {
+      "Title": "PICPORT Image Showcase",
+      "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest here user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
+      "demoLink": "https://github.com/deeprajiflair/PicPort-social-site.git",
+      "imgs": [
+        "assets/images/bbm/image1.png",
+        "assets/images/bbm/image2.png",
+        "assets/images/bbm/image3.png"
+      ],
+      "Technologies": ["Angular", "SASS", "Material", "RxJS", "ExpressJS"]
+    },
+    {
+      "Title": "Jarvis Desktop Assistant",
+      "Description": "Jarvis is an advanced  <span class='underline'>Desktop Assistant</span> that allows seamless interaction with your computer through voice commands. Perform tasks such as opening YouTube, Instagram, or searching the internet effortlessly by speaking simple commands like 'Jarvis, open YouTube'. Control system functions such as shutdown or restart with ease, making your daily tasks smoother and more efficient",
+      "imgs": [
+        "assets/images/jarvis/jarvis1.png",
+        "assets/images/jarvis/jarvis2.png"
+      ],
+      "demoLink": "https://jarvis-assitant.vercel.app/",
+      "Technologies": ["HTML", "CSS3", "Bootstrap", "Javascript"]
+    }
+  ],
+  "OtherProjects.Title": "More personal projects",
+  "OtherProjects.Projects": [
+    {
+      "Title": "Weather Application",
+      "Description": "The Weather Application uses the OpenWeather API for accurate forecasts and dynamically changes its widget background based on the time of day. Daytime features a sunny background, while nighttime shows a night sky. This improves user experience and provides better visualization for intuitive weather monitoring.",
+      "ghLink": "https://github.com/deeprajiflair/weather-app.git",
+      "demoLink": "https://weather-app-psi-mocha.vercel.app/",
+      "Technologies": ["Angular", "Restfull API", "Tailwind"]
+    },
+    {
+      "Title": "JWT Integration",
+      "Description": "In a project integrating Angular, Node.js, and MongoDB, JSON Web Token (JWT) is used for secure authentication. Upon user login, the server issues a JWT, which is stored in the client's local storage for easy access during subsequent sessions.",
+      "ghLink": "https://github.com/deeprajiflair/jwt-deepraj.git",
+      "Technologies": ["Angular", "JWT", "MongoDB", "NodeJS", "ExpressJS"]
+    },
+    {
+      "Title": "Crud Operation in Json Server",
+      "Description": "In Angular, use JSON Server as a mock REST API for CRUD operations with a TypeScript front end. Implement methods for creating, reading, updating, and deleting data from the server, while maintaining proper state management and error handling in the application..",
+      "ghLink": "https://github.com/mufeez1/quizapp",
+      "demoLink": "https://crud-sable-sigma.vercel.app/",
+      "Technologies": [
+        "React",
+        "SASS",
+        "TypeScript",
+        "API",
+        "3rd Party Library"
+      ]
+    }
+  ],
+  "Contact.Pretitle": "What’s Next",
+  "Contact.Title": "Get in touch!",
+  "Contact.Content": "I will be happy to receive your contact if you want to talk about new opportunities. Write me, and I will reply as soon as I see your message.",
+  "Contact.Btn": "Say Hello"
 }
