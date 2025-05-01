@@ -59,17 +59,18 @@
   "FeatureProjects.Label": "Featured Project",
   "FeatureProjects.Projects": [
     {
-      "Title": "E-Commerce Store",
-      "Description": "I developed a scalable <span class='underline'>E-Commerce Store</span> that sells clothing, with dynamic product management and customer handling. The project includes secure <span class='underline'> Authentication services</span> and Configurable Graphics and alarms. I also integrated feedback form logic for real-time parameter configuration and improvements.",
+      "Title": "Shirtee POD",
+      "Description": "I developed a scalable <span class='underline'>Print ON Demand E-Commerce Store</span> that sells customize cloths,wooden products, with dynamic product management and customer handling and allow user print graphics text on porducts. The project includes secure <span class='underline'> Authentication services</span> and Configurable Graphics and alarms. I also integrated feedback form logic for real-time parameter configuration and improvements.<br>Note - Provided url will redirect same demo project those developed by me from scratch due to project is underdevelopment and company does not allow me to share staging sites on resume or portfolio",
       "demoLink": "https://e-commerce-frontend-roan-delta.vercel.app/",
       "imgs": [
-        "assets/images/ecommerce/e-commerce3.png",
-        "assets/images/ecommerce/e-commerce2.png",
-        "assets/images/ecommerce/e-commerce1.png"
+        "assets/images/ecommerce/shirteeimage1.png",
+        "assets/images/ecommerce/shirteeimage2.png",
+        "assets/images/ecommerce/shirteeimage3.png"
       ],
       "Technologies": [
         "Angular",
         "MongoDB",
+        "Mysql",
         "MaterialUI",
         "Ngrx",
         "Node.JS",
@@ -89,25 +90,27 @@
       "Technologies": ["React.js", "Node.js", "Socket.IO", "MongoDB"]
     },
     {
-      "Title": "PICPORT Image Showcase",
-      "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest here user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
-      "demoLink": "https://github.com/deeprajiflair/PicPort-social-site.git",
+      "Title": "Prospect Intelligence AI Tool",
+      "Description": "<span class='underline'>Prospect Intelligence BDE Tool</span> is a B2B automation tool designed to streamline prospecting for my company’s Business Development Executive (BDE) team. Users can log in and paste a LinkedIn or company About Us URL to scrape and clean data, extract key insights, and generate personalized outreach emails. Built with <span class='underline'>React, Node.js, Python, and MySQL</span>, it uses Express, Playwright, Django, and Redux for scraping, backend logic, and frontend state management. The tool reduced manual research time, helping BDEs focus on outreach. Within 3 months, it boosted prospect engagement and sales collaboration by 8%, making it a scalable B2B growth solution.",
+      "demoLink": "http://158.220.115.133:4173/",
       "imgs": [
-        "assets/images/bbm/image1.png",
-        "assets/images/bbm/image2.png",
-        "assets/images/bbm/image3.png"
+        "assets/images/bbm/cp1.png",
+        "assets/images/bbm/cp2.png",
+        "assets/images/bbm/cp3.png",
+        "assets/images/bbm/cp4.png"
       ],
       "Technologies": ["Angular", "SASS", "Material", "RxJS", "ExpressJS"]
     },
     {
-      "Title": "Jarvis Desktop Assistant",
-      "Description": "Jarvis is an advanced  <span class='underline'>Desktop Assistant</span> that allows seamless interaction with your computer through voice commands. Perform tasks such as opening YouTube, Instagram, or searching the internet effortlessly by speaking simple commands like 'Jarvis, open YouTube'. Control system functions such as shutdown or restart with ease, making your daily tasks smoother and more efficient",
+      "Title": "PICPORT Image Showcase",
+      "Description": "<span class='underline'>PICPORT image showcase</span> is inspired by Pinterest here user to share thier images click by phone or camera basically its a image gallery application build in <span class='underline'>Angular , NodeJs and Mongodb </span>. This app use a multer package that allow user to upload and delete images . Currenlty i am using a local storage to save the images uploaded by users. I am using her varoios pacakges like mongoose , express , multer , and in front end RXJS , RXJS Store and RestApis.",
       "imgs": [
-        "assets/images/jarvis/jarvis1.png",
-        "assets/images/jarvis/jarvis2.png"
+        "assets/images/jarvis/image1.png",
+        "assets/images/jarvis/image2.png",
+        "assets/images/jarvis/image3.png"
       ],
-      "demoLink": "https://jarvis-assitant.vercel.app/",
-      "Technologies": ["HTML", "CSS3", "Bootstrap", "Javascript"]
+      "demoLink": "https://github.com/deeprajiflair/PicPort-social-site.git",
+      "Technologies": ["React", "Nodejs", "Mongodb", "Socket.IO"]
     }
   ],
   "OtherProjects.Title": "More personal projects",
